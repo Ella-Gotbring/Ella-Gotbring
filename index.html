@@ -11,7 +11,9 @@
 </head>
 
 <body>
-
+    <header>
+        <h1>ToDo List Application</h1>
+    </header>
     <nav class="navbar">
         <ul class="navigation">
             <img src="assets/lgog.jpeg" alt="logo computer" id="logo">
@@ -22,7 +24,6 @@
 
         </ul>
     </nav>
-    <h1>ToDo List Application</h1>
     <article>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, ex, nisi, beatae blanditiis adipisci perferendis aut cum ad aperiam placeat amet sed minima odit perspiciatis! Porro dignissimos delectus voluptates, tempore reiciendis ipsa
             fuga sed, corrupti voluptas saepe, ex laborum qui.</p>
@@ -30,6 +31,20 @@
             <p> Footer element</p>
         </footer>
     </article>
+
+    <article>
+        <h1>Add what you need to do today!</h1>
+        <div class="container">
+            <input type="text" id="inputField" placeholder="write something..">
+            <button id="addTodo">+</button>
+            <!--alla todos du skapar och lägger till hamnar här-->
+            <div class="toDos" id="toDoContainer">
+
+            </div>
+        </div>
+
+    </article>
+
 
 
     <script src="main.js"></script>
