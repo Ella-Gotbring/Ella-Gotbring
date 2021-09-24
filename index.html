@@ -12,28 +12,25 @@
 
 <body>
     <header>
-        <h1>ToDo List Application</h1>
+        <nav class="navbar">
+            <ul class="navigation">
+
+                <li> <a href="index.html">Home</a></li>
+                <li> <a href="about.html">About</a></li>
+                <li> <a href="product.html">Product</a></li>
+                <li> <a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
     </header>
-    <nav class="navbar">
-        <ul class="navigation">
-            <img src="assets/lgog.jpeg" alt="logo computer" id="logo">
-            <li> <a href="index.html">Home</a></li>
-            <li> <a href="about.html">About</a></li>
-            <li> <a href="product.html">Product</a></li>
-            <li> <a href="contact.html">Contact</a></li>
 
-        </ul>
-    </nav>
-    <article>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque, ex, nisi, beatae blanditiis adipisci perferendis aut cum ad aperiam placeat amet sed minima odit perspiciatis! Porro dignissimos delectus voluptates, tempore reiciendis ipsa
-            fuga sed, corrupti voluptas saepe, ex laborum qui.</p>
-        <footer id="footer">
-            <p> Footer element</p>
-        </footer>
-    </article>
 
-    <article>
-        <h1>Add what you need to do today!</h1>
+    <section>
+        <br>
+        <button class="btn" onclick="myTime()">Klicka här</button>
+
+        <p id="output"></p>
+        <h2>Add what you need to do today!</h2>
         <div class="container">
             <input type="text" id="inputField" placeholder="write something..">
             <button id="addTodo">
@@ -45,8 +42,11 @@
             </div>
         </div>
 
-    </article>
-
+    </section>
+    <footer id="footer">
+        <h2> Footer element</h2>
+        <button onclick="forloop()">For loop</button>
+    </footer>
 
 
     <script src="main.js"></script>
