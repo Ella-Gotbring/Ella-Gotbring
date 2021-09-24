@@ -10,8 +10,8 @@ addToDoButton.addEventListener('click', function() {
     var paragraph = document.createElement('p'); // varje gång du trycker på knappen skapas ett p 
     paragraph.classList.add('paragraph-styling'); //add css 
     paragraph.innerText = inputField.value;
-    toDoContainer.appendChild(paragraph); //lägger till p -> container
-    inputField.value = ""; //tom string
+    toDoContainer.append(paragraph); //lägger till p -> container
+    inputField.value = "";
     paragraph.addEventListener('click', function() {
         paragraph.style.textDecoration = "line-through";
     })
@@ -30,7 +30,7 @@ function myTime() {
     var greeting;
     if (time < 10) {
         greeting = "God morgon";
-    } else if (time < 16)
+    } else if (time < 14)
         greeting = "God eftermiddag";
     else {
         greeting = "God kväll";
@@ -40,6 +40,7 @@ function myTime() {
 
 //for loop
 //variabel i = 0, condition kommer köra loopen så längre det är true 
+//alltså i är mindre än 5 
 //lägger till 1 till i 
 function forloop() {
     for (let i = 0; i < 5; i++) {

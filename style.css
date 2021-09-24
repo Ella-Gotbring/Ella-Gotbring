@@ -28,19 +28,12 @@ p {
 }
 
 .btn {
-    box-shadow: 0px 0px 0px 2px #9fb4f2;
-    background-color: #7892c2;
-    border-radius: 10px;
-    border: 1px solid #4e6096;
-    display: inline-block;
+    background-color: blue;
+    border-radius: 3px;
     cursor: pointer;
     color: #ffffff;
     font-family: Arial;
     font-size: 19px;
-    font-weight: bold;
-    padding: 12px 37px;
-    text-decoration: none;
-    text-shadow: 0px 1px 0px #283966;
 }
 
 .btn:hover {
@@ -52,14 +45,12 @@ p {
 
 .navigation {
     display: flex;
-    flex-flow: row wrap;
     justify-content: space-around;
     margin: 0;
     list-style: none;
 }
 
 .navigation a {
-    display: block;
     text-decoration: none;
     padding: 10px;
     color: black;
@@ -69,17 +60,11 @@ p {
     background-color: lightblue;
 }
 
-.navigation #logo {
-    display: inline-block;
-    width: 40px;
-    height: 40px;
-}
-
 
 /* toDo style */
 
 .toDos {
-    margin-top: 25px;
+    margin-top: 14px;
     border: 1px solid black;
 }
 
@@ -100,14 +85,12 @@ p {
     height: 50px;
     width: 250px;
     border: 1px solid black;
-    outline: none;
     font-size: 20px;
     vertical-align: middle;
 }
 
 .paragraph-styling {
     cursor: pointer;
-    margin: 0;
     font-size: 20px;
     font-weight: bold;
 }
